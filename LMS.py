@@ -214,6 +214,15 @@ def main_menu():
         elif choice == '11':
             add_staff()
             log_action("Added Staff")
+elif choice == '12':
+            view_staff()
+            log_action("Viewed Staff")
+        elif choice == '13':
+            export_books_to_csv()
+            log_action("Exported Books to CSV")
+        elif choice == '14':
+            print("Exiting...")
+            break
 
                     else:
             print("Invalid choice. Please try again.")
