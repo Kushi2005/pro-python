@@ -208,6 +208,12 @@ def main_menu():
         elif choice == '9':
             issue_book()
             log_action("Issued Book")
+            elif choice == '10':
+            return_book()
+            log_action("Returned Book")
+        elif choice == '11':
+            add_staff()
+            log_action("Added Staff")
 
                     else:
             print("Invalid choice. Please try again.")
